@@ -2,7 +2,7 @@
 
 A lite theme for [Ghost](http://github.com/tryghost/ghost/).
 
-To download, visit the [releases](https://github.com/ygbhf/ghost-theme-bent/releases) page.
+To download, visit the [releases](https://github.com/uvexz/ghost-theme-bent/releases) page.
 
 ## More
 
@@ -21,7 +21,7 @@ To download, visit the [releases](https://github.com/ygbhf/ghost-theme-bent/rele
 
 ## Screenshot 
 
-TBA
+![desktop](https://raw.githubusercontent.com/uvexz/ghost-theme-bent/main/assets/screenshot-desktop.png)
 
 ## Copyright & License
 
