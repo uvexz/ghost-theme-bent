@@ -1,0 +1,6 @@
+        <div class="md:col-span-2 2xl:col-span-3">
+          <div class="flex justify-between text-sm font-light text-slate-600">
+            <span><a {{#if prev}}href="{{page_url prev}}"{{else}}class="text-white"{{/if}}><i class="bi bi-arrow-return-left"></i></a></span>
+            <span class="text-right"><a {{#if next}}href="{{page_url next}}"{{/if}}><i class="bi bi-arrow-return-right"></i></a></span>
+          </div>
+        </div>
