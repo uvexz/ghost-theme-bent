@@ -37,6 +37,6 @@
     "bugs": "https://github.com/uvexz/ghost-theme-bent/issues",
     "contributors": "https://github.com/uvexz/ghost-theme-bent/graphs/contributors",
     "config": {
-        "posts_per_page": 9
+        "posts_per_page": 8
     }
 }

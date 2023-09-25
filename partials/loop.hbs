@@ -1,7 +1,7 @@
 {{!-- This is the post loop - each post will be output using this markup --}}
 {{#foreach posts}}
         {{#if feature_image}}
-        <div class="rounded-lg border border-slate-200 p-8 hover:bg-slate-50 {{#if featured}}md:col-span-2{{/if}}" style="height:35vh; background-image: url({{img_url feature_image}});  background-position: center; background-size: cover;">
+        <div class="rounded-lg border border-slate-200 p-8 hover:bg-slate-50 first-span" style="height:35vh; background-image: url({{img_url feature_image}});  background-position: center; background-size: cover;">
           <div class="grid h-full content-between text-white">
             <h2 class="text-xl font-normal"><a href="{{url}}">{{title}}</a></h2>
             <div class="flex justify-between text-sm font-light">
@@ -17,7 +17,7 @@
         <!-- end -->
         {{else}}
         <!-- start -->
-        <div class="rounded-lg border border-slate-200 p-8 hover:bg-slate-50 {{#if featured}}md:col-span-2{{/if}}" style="height:35vh;">
+        <div class="rounded-lg border border-slate-200 p-8 hover:bg-slate-50 first-span" style="height:35vh;">
           <div class="grid h-full content-between text-slate-600">
             <h2 class="text-xl font-normal"><a href="{{url}}">{{title}}</a></h2>
             <div class="flex justify-between text-sm font-light">

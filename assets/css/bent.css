@@ -1699,6 +1699,10 @@ video {
 }
 
 @media (min-width: 1536px){
+  .first-span:first-of-type{
+    grid-column: span 2 / span 2;
+  }
+
   .\32xl\:col-span-3{
     grid-column: span 3 / span 3;
   }
